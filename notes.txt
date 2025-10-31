@@ -1,0 +1,37 @@
+adminadmin   $2y$10$xNuyjPZVBMj8GKUVMz2S1e4PNOthguj/Rz2az0wn9TBg/laZChTBu
+
+
+adminadmin@gmail.com adminadmin
+seller imanelorex@gmail.com imaneimane
+buyer alibaba@gmail.com alibabaalibaba
+
+for database >>>>>> npx drizzle-kit studio
+
+
+
+
+psql -h localhost -p 5432 -U drizzle_user -d drizzle_db
+
+https://img.icons8.com/?size=100&id=54105&format=png&color=40C057
+
+
+
+
+4️⃣ Daily workflow
+When you make changes and they work:
+
+
+git add .
+git commit -m "Describe what you changed"
+git push
+
+If you mess something up:
+
+bash
+Copy code
+git reset --hard HEAD   # go back to last commit
+or
+
+bash
+Copy code
+git checkout main       # reload last pushed state
