@@ -3,7 +3,7 @@
 
 // src/components/nav/PublicNav.tsx
 import Link from "next/link";
-import Logo from "@/components/Logo";
+import Logo from "@/components/logo";
 
 export default function PublicNav() {
   const links = [

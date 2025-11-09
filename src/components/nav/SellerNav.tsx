@@ -4,7 +4,7 @@
 // src/components/nav/SellerNav.tsx
 import Link from "next/link";
 import LogoutButton from "@/components/logout-button";
-import Logo from "@/components/Logo";
+import Logo from "@/components/logo";
 
 export default function SellerNav() {
   const links = [

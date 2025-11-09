@@ -3,7 +3,7 @@
 // src/components/nav/BuyerNav.tsx
 import Link from "next/link";
 import LogoutButton from "@/components/logout-button";
-import Logo from "@/components/Logo";
+import Logo from "@/components/logo";
 
 export default function BuyerNav() {
   const links = [
