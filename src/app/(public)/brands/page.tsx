@@ -5,7 +5,7 @@ import { products } from "@/db/schema/products";
 import { sellers } from "@/db/schema/users"; // has userId + companyName
 import { desc, eq, sql } from "drizzle-orm";
 
-export const revalidate = 60; // ISR
+export const dynamic = "force-dynamic"; // avoid build-time DB during Netlify build
 
 type BrandRow = {
   id: string;

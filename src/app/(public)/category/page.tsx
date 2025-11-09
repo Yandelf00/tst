@@ -5,7 +5,7 @@ import { products } from "@/db/schema/products";
 import { categories } from "@/db/schema/categories";
 import { desc, eq, sql } from "drizzle-orm";
 
-export const revalidate = 60; // ISR
+export const dynamic = "force-dynamic"; // avoid build-time DB during Netlify build
 
 type CategoryRow = {
   id: string;
